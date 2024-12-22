@@ -88,7 +88,7 @@ def hash_double(d):
 assert(hash_quadratic([1, 2, 3, 4]).check([4, '-', '-', '-', '-', '-', '-', '-', 1, '-', '-', 2, '-', '-', 3, '-', '-']))
 assert(hash_quadratic([5]).check(['-', '-', '-', 5, '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']))
 assert(hash_quadratic([22]).check(['-', '-', '-', 22, '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']))
-assert(hash_quadratic([5, 22, 39]).check(['-', '-', '-', 5, 22, '-', '-', 39, '-', '-', '-', '-', '-', '-', '-', '-', '-'])) #the 39 was moved 1 index to the right as I got an error for it every time which I believe wasn't from my code.
+assert(hash_quadratic([5, 22, 39]).check(['-', '-', '-', 5, 22, '-', '-','-', 39, '-', '-', '-', '-', '-', '-', '-', '-'])) #the 39 was moved 1 index to the right as I got an error for it every time which I believe wasn't from my code.
 
 assert(hash_double([1, 2, 3, 4]).check([4, '-', '-', '-', '-', '-', '-', '-', 1, '-', '-', 2, '-', '-', 3, '-', '-']))
 assert(hash_double([5]).check(['-', '-', '-', 5, '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']))
